@@ -1,7 +1,22 @@
 baseURL = 'https://yansheng.us.kg/'
 languageCode = 'zh-cn'
-title = 'Yuan Yuan 的个人博客'
+title = 'yansheng' # 这里的标题会显示在浏览器标签页
+theme = "github.com/CaiJimmy/hugo-theme-stack/v3"
 
 [module]
   [[module.imports]]
-    path = "github.com/theNewDynamic/gohugo-theme-ananke/v2"
+    path = "github.com/CaiJimmy/hugo-theme-stack/v3"
+
+[params]
+    mainSections = ["post"]
+    featuredImageField = "image"
+
+    [params.sidebar]
+        emoji = "🚀"
+        subtitle = "正在折腾的极客"
+        # 这里的名字会显示在侧边栏头像下面
+        title = "yansheng" 
+
+    [params.article]
+        showReadingTime = true
+        showWordCount = true
