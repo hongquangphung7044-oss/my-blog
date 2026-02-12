@@ -11,11 +11,11 @@ theme = "github.com/CaiJimmy/hugo-theme-stack/v3"
     mainSections = ["post"]
     featuredImageField = "image"
 
-    [params.sidebar]
+        [params.sidebar]
         emoji = "🚀"
         subtitle = "正在折腾的极客"
-        # 这里的名字会显示在侧边栏头像下面
-        title = "yansheng" 
+        title = "yansheng"
+        avatar = "avatar.png"  # 务必加上这一行，否则头像显示不出来
 
     [params.article]
         showReadingTime = true
