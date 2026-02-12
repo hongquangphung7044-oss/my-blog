@@ -1,0 +1,4 @@
+baseURL = 'https://yansheng.us.kg/'
+languageCode = 'zh-cn'
+title = 'Yuan Yuan 的个人空间'
+theme = 'ananke'
