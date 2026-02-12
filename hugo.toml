@@ -9,19 +9,16 @@ theme = "github.com/CaiJimmy/hugo-theme-stack/v3"
 
 [params]
     mainSections = ["post"]
-    featuredImageField = "image"
-
+    
     [params.sidebar]
-        emoji = "🚀"
         title = "yansheng"
-        subtitle = "正在折腾的极客"
-        # 修复关键：头像必须用这种花括号格式配置
+        subtitle = "极客折腾记录"
+        # [span_3](start_span)必须是这种格式，否则必报错[span_3](end_span)
         avatar = { enabled = true, local = true, src = "avatar.png" }
 
     [params.article]
         showReadingTime = true
         showWordCount = true
 
-    # 加上这个可以防止搜索功能报错
     [params.search]
         enabled = false
