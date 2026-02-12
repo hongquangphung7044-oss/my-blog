@@ -1,4 +1,8 @@
 baseURL = 'https://yansheng.us.kg/'
 languageCode = 'zh-cn'
-title = 'Yuan Yuan 的个人空间'
-theme = 'ananke'
+title = 'Yuan Yuan 的个人博客'
+
+# 使用 Hugo Modules 引入主题
+[module]
+  [[module.imports]]
+    path = "github.com/theNewDynamic/gohugo-theme-ananke"
